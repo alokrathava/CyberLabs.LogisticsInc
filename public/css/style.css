@@ -1,0 +1,36 @@
+.myNavbar {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 0px;
+    border: 0px;
+    border-bottom: 1px solid #ffffff;
+}
+
+.myNavbar a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.myNavbar a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.myNavbar a:active {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.myNavbar a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.myNavbar a:focus {
+    color: #ffffff;
+    text-decoration: none;
+}
+

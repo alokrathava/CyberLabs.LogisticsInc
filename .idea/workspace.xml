@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b07c160f-823c-4090-b206-06fe2c3e6c39" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/track.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +22,7 @@
       <list>
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -46,6 +48,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "list.type.of.created.stylesheet": "CSS",
     "nodejs_package_manager_path": "npm",
     "prettierjs.PrettierConfiguration.Package": "C:\\Users\\AutoLogon\\WebstormProjects\\CyberLabs\\node_modules\\prettier",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
@@ -73,7 +76,9 @@
       <workItem from="1662818453466" duration="2672000" />
       <workItem from="1662937170913" duration="373000" />
       <workItem from="1662942784003" duration="927000" />
-      <workItem from="1664637106779" duration="2927000" />
+      <workItem from="1664637106779" duration="2984000" />
+      <workItem from="1664664635089" duration="360000" />
+      <workItem from="1664669580606" duration="3210000" />
     </task>
     <task id="LOCAL-00001" summary="Ignored Files">
       <created>1662937444634</created>
@@ -96,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662943030283</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Cyber Labs India Logistics INC">
+      <created>1664640275330</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664640275330</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +131,7 @@
     </ignored-roots>
     <MESSAGE value="Ignored Files" />
     <MESSAGE value="Web322 - Assignment 1 Completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Web322 - Assignment 1 Completed" />
+    <MESSAGE value="Cyber Labs India Logistics INC" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cyber Labs India Logistics INC" />
   </component>
 </project>

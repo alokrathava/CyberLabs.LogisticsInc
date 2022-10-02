@@ -25,19 +25,44 @@ app.use(express.static('public'));
 
 let createServer = () => {
     console.log(`Express server listening on port ${port}`);
-}
+};
 
 app.listen(port, createServer);
-/*- --------------------------Middleware-------------------*/
+/*- -------------------------------Middleware---------------------------------*/
 
-
-/*-------------------------------Website------------------*/
-app.get('/', (req, res) => {
-    req.header('Content-Type', 'text/html');
-    res.status(statusCode.OK).send('Hello World!');
+/*---------------------------------Routing------------------------------------*/
+app.get("/", (req, res) => {
+    req.header("Content-Type", "text/html");
+    res.status(statusCode.OK).sendFile(path.join(__dirname + "/views/index.html"), (err) => {
+        if (err) {
+            res.status(statusCode.INTERNAL_SERVER_ERROR).send(err);
+        }
+    });
 });
 
-app.use(res, req => {
-    req.header('Access-Control-Allow-Origin', '*');
-    res.status(statusCode.NOT_FOUND).sendfile(path.join(__dirname, './views/404.html'));
-})
+app.get("/track", (req, res) => {
+    req.header("Content-Type", "text/html");
+    res.status(statusCode.OK).sendFile(path.join(__dirname + "/views/track.html"), (err) => {
+        if (err) {
+            res.status(statusCode.INTERNAL_SERVER_ERROR).send(err);
+        }
+    });
+});
+
+app.get("/contact", (req, res) => {
+    req.header("Content-Type", "text/html");
+    res.status(statusCode.OK).sendFile(path.join(__dirname + "/views/contact.html"), (err) => {
+        if (err) {
+            res.status(statusCode.INTERNAL_SERVER_ERROR).send(err);
+        }
+    });
+});
+
+app.get("/login", (req, res) => {
+    req.header("Content-Type", "text/html");
+    res.status(statusCode.OK).sendFile(path.join(__dirname + "/views/login.html"), (err) => {
+        if (err) {
+            res.status(statusCode.INTERNAL_SERVER_ERROR).send(err);
+        }
+    });
+});
